@@ -82,19 +82,21 @@ button {
 
 main {
     background: #F9F9F9;
+   
 }
 
 .main {
     background: #F9F9F9;
     min-width: 1920px;
-
-
+    min-height: 359px;
+    
 }
 
 .maintitle {
     margin-left: 758px;
     margin-right: 759px;
     padding-top: 112px;
+    background: #F9F9F9;
 }
 
 .maintitle p {
@@ -103,13 +105,13 @@ main {
     font-size: 32px;
     font-style: normal;
     font-family: Roboto;
+    background: #F9F9F9;
 }
 
 .maintext {
     margin-top: 50px;
     margin-bottom: 100px;
     width: 540px;
-    height: 67px;
     margin-left: 690px;
 }
 
