@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header {
+    background: #EEEFF1;
+    min-width: 1920px;
+}
+
+
+
+.head {
+    margin-left: 357px;
+    padding-top: 79px;
+
+
+
+}
+
+.list li {
+    display: inline;
+    margin-left: 42px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+
+}
+
+a:hover {
+    color: #34547A;
+
+}
+
+.title {
+    color: black;
+    margin-top: 151px;
+    margin-left: 399px;
+    font-size: 48px;
+    font-family: Roboto;
+}
+
+.text {
+    margin-top: 60px;
+    margin-left: 399px;
+    width: 540px;
+    height: 67px;
+}
+
+
+.text p {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #727272;
+}
+
+button {
+    border: none;
+    color: #FFF;
+    background: #34547A;
+    text-align: center;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    margin-left: 399px;
+    margin-top: 65px;
+    margin-bottom: 141px;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+main {
+    background: #F9F9F9;
+}
+
+.main {
+    background: #F9F9F9;
+    min-width: 1920px;
+
+
+}
+
+.maintitle {
+    margin-left: 758px;
+    margin-right: 759px;
+    padding-top: 112px;
+}
+
+.maintitle p {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-family: Roboto;
+}
+
+.maintext {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 540px;
+    height: 67px;
+    margin-left: 690px;
+}
+
+.maintext p {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Roboto;
+}
+
+.projects {
+    min-width: 1920px;
+    height: 250px;
+    flex-shrink: 0;
+    background: var(--Accent, #34547A);
+}
+
+.wrapper {
+    max-width: calc(1920px - 399px * 2);
+    margin: 0 auto;
+}
+
+.numbers-item {
+    display: flex;
+    float: left;
+    min-width: 141px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 100px 45px 100px 0;
+}
+
+.numbers-item img {
+    padding-right: 20px;
+}
+
+.info {
+    width: 71px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+.info span {
+    min-width: 71px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
+
+.info h3 {
+    padding: 3px 0 28px 0;
+    min-width: 36px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #FFF;
+    display: inline;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.section-video {
+    margin: 0 auto;
+    width: 1920px;
+    height: 1004px;
+    flex-shrink: 0;
+    background: var(--Silver, #EEEFF1);
+}
+
+.section-video h3 {
+    display: none;
+}
+
+.video-title {
+    padding-top: 100px;
+    margin: 0 690px;
+    width: 540px;
+    height: 147px;
+    flex-shrink: 0;
+    color: #000000;
+}
+
+.video-title span {
+    display: block;
+    margin: 0 69px 0 68px;
+    width: 403px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.video-title p {
+    padding: 0 20px;
+    margin: 50px 0;
+    max-width: 500px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #727272;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
+
+.video {
+    min-width: 1920px;
+    margin: 57px 405px 0 405px;
+    min-width: 1110px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.footer {
+    margin: 0 auto;
+    min-width: 1920px;
+    height: 151px;
+    flex-shrink: 0;
+    background: var(--Accent, #34547A);
+}
+
+.footer h3 {
+    margin: 0 auto;
+    width: 130px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #FFF;
+    padding: 50px 1384px 20px 406px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer p {
+    margin: 0 auto;
+    padding: 0 1321px 50px 406px;
+    width: 193px;
+    height: 12px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
